@@ -1,41 +1,53 @@
-# Projeto da Calculadora
+# Calculadora em C#
 
-Calculadora em C#
-Descrição
-Este projeto consiste em uma calculadora simples desenvolvida em C#. O objetivo principal é reforçar conceitos básicos de lógica de programação, como:
+## 📝 Descrição
+Este é um projeto simples de uma calculadora desenvolvida em **C#**, com o objetivo de relembrar conceitos básicos de lógica de programação e manipulação de dados no console.
 
-Estruturas de controle (while, switch, if)
-Manipulação de variáveis
-Uso de enums
-Métodos e organização de código
-Leitura e escrita no console (Console.ReadLine e Console.WriteLine)
-Formatação de números (ToString com CultureInfo.InvariantCulture)
-Funcionalidades
-A calculadora permite realizar as seguintes operações:
+## 🚀 Funcionalidades
+A calculadora suporta as seguintes operações:
+1. **Soma**
+2. **Subtração**
+3. **Multiplicação**
+4. **Divisão**
+5. **Encerrar o programa**
 
-Soma
-Subtração
-Multiplicação
-Divisão
-Encerrar o programa
-Cada operação é implementada em um método separado, mantendo o código organizado e modular.
+Cada operação é implementada de forma modular, em métodos separados.
 
-Estrutura do Código
-Enum Menu: Representa as opções do menu da calculadora.
-Métodos:
-Soma(): Realiza a soma de dois números.
-Subtrair(): Realiza a subtração de dois números.
-Multiplicar(): Realiza a multiplicação de dois números.
-Dividir(): Realiza a divisão de dois números.
-Loop Principal (Main):
-Exibe o menu de opções.
-Lê a entrada do usuário e executa a operação correspondente.
-Oferece a opção de sair do programa.
-Como Usar
-Execute o programa.
-Escolha uma opção do menu digitando o número correspondente.
-Insira os números necessários para a operação.
-Veja o resultado e pressione qualquer tecla para voltar ao menu.
-Escolha "Encerrar calculadora" para sair.
-Motivação
-Este projeto foi criado como um exercício prático para relembrar e aplicar os fundamentos de lógica de programação e da linguagem C#. Ele pode ser expandido ou usado como base para projetos mais avançados no futuro.
+## 📂 Estrutura do Código
+- **Enum `Menu`**: Enumeração para representar as opções do menu.
+- **Métodos**:
+  - `Soma()`: Realiza a soma de dois números.
+  - `Subtrair()`: Realiza a subtração de dois números.
+  - `Multiplicar()`: Realiza a multiplicação de dois números.
+  - `Dividir()`: Realiza a divisão de dois números.
+- **Loop Principal (`Main`)**:
+  - Exibe o menu de opções para o usuário.
+  - Lê a entrada do usuário e executa a operação correspondente.
+  - Oferece a opção de sair do programa.
+
+## 💻 Como Usar
+1. Clone o repositório e compile o projeto.
+2. Execute o programa.
+3. No menu principal:
+   - Escolha uma opção digitando o número correspondente.
+4. Insira os números necessários para realizar a operação.
+5. Veja o resultado.
+6. Pressione qualquer tecla para voltar ao menu ou escolha **Encerrar calculadora** para finalizar o programa.
+
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem**: C#
+- **Framework**: .NET (Console Application)
+
+## 📚 Conceitos Relembrados
+- Estruturas de controle como `while`, `switch`, e `if`.
+- Leitura e escrita no console com `Console.ReadLine` e `Console.WriteLine`.
+- Uso de `enum` para criar um menu de opções.
+- Métodos para organizar operações matemáticas.
+- Formatação de números com `ToString("F1", CultureInfo.InvariantCulture)`.
+
+## 📦 Estrutura do Repositório
+```plaintext
+Calculadora/
+├── Calculadora.csproj
+├── Program.cs
+└── README.md
